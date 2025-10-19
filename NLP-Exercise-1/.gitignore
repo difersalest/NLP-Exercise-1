@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pkl
+*.gz
+*.txt
+*.zip
+*.1
+*.2
+*npy
+
+wiki_sample_5_prcnt_model
+wiki_sample_10_prcnt_model
+wiki_sample_20_prcnt_model
+# Virtual environments
+.venv
