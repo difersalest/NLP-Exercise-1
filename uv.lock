@@ -1519,13 +1519,14 @@ wheels = [
 ]
 
 [[package]]
-name = "nlp-hw1"
+name = "nlp-exercise-1"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fast-langdetect" },
     { name = "gdown" },
     { name = "gensim" },
+    { name = "ipykernel" },
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "numpy" },
@@ -1541,6 +1542,7 @@ requires-dist = [
     { name = "fast-langdetect", specifier = ">=1.0.0" },
     { name = "gdown", specifier = ">=5.2.0" },
     { name = "gensim", specifier = ">=4.3.3" },
+    { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "numpy", specifier = ">=1.26.4" },
